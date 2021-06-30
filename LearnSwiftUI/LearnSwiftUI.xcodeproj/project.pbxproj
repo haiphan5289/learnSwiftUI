@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EB3A23A268C633800DE3C8D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2EB3A239268C633800DE3C8D /* Localizable.strings */; };
+		2EB3A23E268C638F00DE3C8D /* Strings-Gen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB3A23C268C638F00DE3C8D /* Strings-Gen.swift */; };
+		2EB3A23F268C638F00DE3C8D /* Assets-Gen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB3A23D268C638F00DE3C8D /* Assets-Gen.swift */; };
 		2EB77F8D2685B0B900E8C536 /* LearnSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB77F8C2685B0B900E8C536 /* LearnSwiftUIApp.swift */; };
 		2EB77F8F2685B0B900E8C536 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB77F8E2685B0B900E8C536 /* ContentView.swift */; };
 		2EB77F912685B0BB00E8C536 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EB77F902685B0BB00E8C536 /* Assets.xcassets */; };
 		2EB77F942685B0BB00E8C536 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EB77F932685B0BB00E8C536 /* Preview Assets.xcassets */; };
+		9F324F0036CA0BBF6D8A3F82 /* Pods_LearnSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B63DAB7B9546C3F5CB18F5 /* Pods_LearnSwiftUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		283A530C75BD4A8AD13355F3 /* Pods-LearnSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnSwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-LearnSwiftUI/Pods-LearnSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		2EB3A235268C602C00DE3C8D /* swiftgen.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		2EB3A239268C633800DE3C8D /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		2EB3A23C268C638F00DE3C8D /* Strings-Gen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Strings-Gen.swift"; sourceTree = "<group>"; };
+		2EB3A23D268C638F00DE3C8D /* Assets-Gen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Assets-Gen.swift"; sourceTree = "<group>"; };
 		2EB77F892685B0B900E8C536 /* LearnSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EB77F8C2685B0B900E8C536 /* LearnSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnSwiftUIApp.swift; sourceTree = "<group>"; };
 		2EB77F8E2685B0B900E8C536 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -21,6 +30,8 @@
 		2EB77F932685B0BB00E8C536 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2EB77F952685B0BB00E8C536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EB77FE92685C50800E8C536 /* LearnSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LearnSwiftUI.entitlements; sourceTree = "<group>"; };
+		32B63DAB7B9546C3F5CB18F5 /* Pods_LearnSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		356D43BE6D999D81B390B5C2 /* Pods-LearnSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnSwiftUI.release.xcconfig"; path = "Target Support Files/Pods-LearnSwiftUI/Pods-LearnSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,17 +39,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F324F0036CA0BBF6D8A3F82 /* Pods_LearnSwiftUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E7329211B7AE2E5C5066B3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				283A530C75BD4A8AD13355F3 /* Pods-LearnSwiftUI.debug.xcconfig */,
+				356D43BE6D999D81B390B5C2 /* Pods-LearnSwiftUI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2EB3A236268C610900DE3C8D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2EB3A237268C61CE00DE3C8D /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				2EB3A23D268C638F00DE3C8D /* Assets-Gen.swift */,
+				2EB3A23C268C638F00DE3C8D /* Strings-Gen.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
 		2EB77F802685B0B900E8C536 = {
 			isa = PBXGroup;
 			children = (
 				2EB77F8B2685B0B900E8C536 /* LearnSwiftUI */,
 				2EB77F8A2685B0B900E8C536 /* Products */,
+				2E7329211B7AE2E5C5066B3E /* Pods */,
+				57AFAB3B7F5D761DC13AEC92 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,12 +92,16 @@
 		2EB77F8B2685B0B900E8C536 /* LearnSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				2EB3A237268C61CE00DE3C8D /* Generated */,
+				2EB3A236268C610900DE3C8D /* Resources */,
 				2EB77FE92685C50800E8C536 /* LearnSwiftUI.entitlements */,
+				2EB77F902685B0BB00E8C536 /* Assets.xcassets */,
 				2EB77F8C2685B0B900E8C536 /* LearnSwiftUIApp.swift */,
 				2EB77F8E2685B0B900E8C536 /* ContentView.swift */,
-				2EB77F902685B0BB00E8C536 /* Assets.xcassets */,
 				2EB77F952685B0BB00E8C536 /* Info.plist */,
 				2EB77F922685B0BB00E8C536 /* Preview Content */,
+				2EB3A235268C602C00DE3C8D /* swiftgen.yml */,
+				2EB3A239268C633800DE3C8D /* Localizable.strings */,
 			);
 			path = LearnSwiftUI;
 			sourceTree = "<group>";
@@ -71,6 +114,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		57AFAB3B7F5D761DC13AEC92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32B63DAB7B9546C3F5CB18F5 /* Pods_LearnSwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +129,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2EB77F982685B0BB00E8C536 /* Build configuration list for PBXNativeTarget "LearnSwiftUI" */;
 			buildPhases = (
+				1BBDEA78DD6D938F8A17522E /* [CP] Check Pods Manifest.lock */,
 				2EB77F852685B0B900E8C536 /* Sources */,
 				2EB77F862685B0B900E8C536 /* Frameworks */,
 				2EB77F872685B0B900E8C536 /* Resources */,
@@ -129,11 +181,37 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EB77F942685B0BB00E8C536 /* Preview Assets.xcassets in Resources */,
+				2EB3A23A268C633800DE3C8D /* Localizable.strings in Resources */,
 				2EB77F912685B0BB00E8C536 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BBDEA78DD6D938F8A17522E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearnSwiftUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2EB77F852685B0B900E8C536 /* Sources */ = {
@@ -141,7 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EB77F8F2685B0B900E8C536 /* ContentView.swift in Sources */,
+				2EB3A23F268C638F00DE3C8D /* Assets-Gen.swift in Sources */,
 				2EB77F8D2685B0B900E8C536 /* LearnSwiftUIApp.swift in Sources */,
+				2EB3A23E268C638F00DE3C8D /* Strings-Gen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +346,7 @@
 		};
 		2EB77F992685B0BB00E8C536 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 283A530C75BD4A8AD13355F3 /* Pods-LearnSwiftUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,6 +370,7 @@
 		};
 		2EB77F9A2685B0BB00E8C536 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 356D43BE6D999D81B390B5C2 /* Pods-LearnSwiftUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

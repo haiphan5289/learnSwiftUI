@@ -37,16 +37,16 @@ struct ContentView: View {
 //            Spacer()
 //        }
         ZStack {
-            Image("img_checked_dark")
+            Image(L10n.Account.deviceRegister)
                 .resizable()
                 .ignoresSafeArea()
             VStack {
                 Spacer()
-                Image("img_checked_dark")
+                Image(L10n.Account.deviceRegister)
                     .background(Color.green)
                 Spacer()
                 HStack {
-                    Text("Hải")
+                    Text(L10n.Account.deviceRegister)
                     Text("Hải")
                 }
                 Spacer()
